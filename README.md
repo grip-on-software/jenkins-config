@@ -1,7 +1,7 @@
 # Jenkins configuration
 
-This configuration file can be used on Ubuntu to tweak the startup paramters of
-Jenkins.
+This configuration file can be used on Ubuntu to tweak the startup parameters 
+of Jenkins.
 
 ## Installation
 
