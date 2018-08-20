@@ -4,7 +4,7 @@
 NAME=jenkins
 
 # location of java
-PATH=/usr/lib/jvm/java-8-openjdk-amd64/bin:$PATH
+PATH=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin:$PATH
 
 # arguments to pass to java
 
