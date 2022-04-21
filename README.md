@@ -1,11 +1,12 @@
 # Jenkins configuration
 
-This configuration file can be used on Ubuntu to tweak the startup parameters 
-of Jenkins.
+This repository contains configuration for a Jenkins server as well as 
+instructions for Jenkins build node setup. The configuration file can be used 
+on Ubuntu to tweak the startup parameters of Jenkins.
 
 ## Installation
 
-See https://pkg.jenkins.io/debian-stable/ for complete instructions for
+See https://pkg.jenkins.io/debian-stable/ for complete instructions for 
 installing Jenkins on Ubuntu. We assume you have root privileges.
 
 ```
@@ -23,8 +24,8 @@ mv /etc/default/jenkins /etc/default/jenkins.bak
 ln -s /srv/jenkins-config/jenkins-config /etc/default/jenkins
 ```
 
-When upgrading, use `apt-get install --only-upgrade jenkins`. APT is going to
-complain that the configuration file has been changed. Inspect the upstream
-changes through a diff, and keep the original symlink by choosing 'N' or 'O'.
-Apply any relevant changes from upstream to the configuration file and commit
+When upgrading, use `apt-get install --only-upgrade jenkins`. APT might 
+complain that the configuration file has been changed. Inspect the upstream 
+changes through a diff, and keep the original symlink by choosing 'N' or 'O'. 
+Apply any relevant changes from upstream to the configuration file and commit 
 and push the updates.
