@@ -9,7 +9,7 @@ PATH=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin:$PATH
 # arguments to pass to java
 
 # Allow graphs etc. to work even when an X server is present
-JAVA_ARGS="-Djava.awt.headless=true -Xmx1048m -Dhudson.model.DirectoryBrowserSupport.CSP=\"sandbox allow-same-origin allow-scripts; default-src 'self' data: blob:; script-src 'self'; style-src * data: blob:; font-src *;\" -Dhudson.udp=-1 -Dhudson.DNSMultiCast.disabled=true"
+JAVA_ARGS="-Djava.awt.headless=true -Xmx1048m -Dhudson.udp=-1 -Dhudson.DNSMultiCast.disabled=true"
 
 #JAVA_ARGS="-Xmx256m"
 
