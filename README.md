@@ -6,7 +6,7 @@ on Ubuntu to tweak the startup parameters of Jenkins.
 
 ## Installation
 
-See https://pkg.jenkins.io/debian-stable/ for complete instructions for 
+See https://pkg.jenkins.io/debian-stable/ for more complete instructions for 
 installing Jenkins on Ubuntu. We assume you have root privileges.
 
 ```
@@ -16,10 +16,10 @@ apt-get update
 apt-get install jenkins
 ```
 
-Next, to set up the Jenkins configuration:
+Next, to set up the Jenkins configuration, clone this repository (for example 
+in `/srv/jenkins-config`), and run the following commands:
 
 ```
-git clone https://git.liacs.nl/gros/jenkins-config.git
 mv /etc/default/jenkins /etc/default/jenkins.bak
 ln -s /srv/jenkins-config/jenkins-config /etc/default/jenkins
 ```
