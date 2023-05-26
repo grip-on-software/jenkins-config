@@ -29,3 +29,15 @@ complain that the configuration file has been changed. Inspect the upstream
 changes through a diff, and keep the original symlink by choosing 'N' or 'O'. 
 Apply any relevant changes from upstream to the configuration file and commit 
 and push the updates.
+
+## Configuration
+
+- Credential identifiers can be found in [credentials.md](credentials.md).
+- Environment variables can be found in [environment.md](environment.md).
+- Plugins used by pipelines can be found in [plugins.md](plugins.md).
+- Tool configurations can be found in [tools.md](tools.md).
+
+## Worker nodes
+
+Documentation on setting up a GPY-enabled worker node can be found in 
+[jenkins-build-node.md](jenkins-build-node.md).
