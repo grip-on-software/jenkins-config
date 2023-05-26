@@ -2,7 +2,9 @@
 
 This repository contains configuration for a Jenkins server as well as 
 instructions for Jenkins build node setup. The configuration file can be used 
-on Ubuntu to tweak the startup parameters of Jenkins.
+on Ubuntu to tweak the startup parameters of Jenkins. This configuration is 
+tailored toward using Jenkins for building Grip on Software repositories and 
+performing analysis/visualization, which requires further pipeline setup.
 
 ## Installation
 
@@ -31,6 +33,10 @@ Apply any relevant changes from upstream to the configuration file and commit
 and push the updates.
 
 ## Configuration
+
+Jenkins configuration is often specific to the environment it is in, such as 
+authentication, email settings, connections to GitLab instance, data retention 
+and access restrictions. For GROS, some specifics can be found here:
 
 - Credential identifiers can be found in [credentials.md](credentials.md).
 - Environment variables can be found in [environment.md](environment.md).

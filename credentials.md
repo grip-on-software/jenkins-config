@@ -13,8 +13,9 @@ The following credentials are used by the Declerative Pipeline jobs in Jenkins:
 | Username with password | docker-credentials | Docker credentials |
 | Secret text | * | SonarQube authentication token |
 | SSH Username with private key | worker | Jenkins worker SSH key |
-| GitLab API token | gitlab-liacs-api-token | GitLab API token (GitLab API token (git.liacs.nl)) |
-| SSH Username with private key | gitlab-liacs-clone-auth | git (GitLab clone identity (git.liacs.nl)) |
+| GitLab API token | gitlab-api-token | GitLab API token (GitLab API token) |
+| SSH Username with private key | gitlab-clone-auth | git (GitLab clone 
+identity) |
 | Secret text | monetdb-dumper-gitlab-token | MonetDB dumper GitLab token |
 | Secret text | monetdb-import-gitlab-token | MonetDB import GitLab token |
 | Secret file | monetdb-import-settings | settings.cfg (MonetDB import validation settings) |
