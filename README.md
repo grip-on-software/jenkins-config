@@ -45,5 +45,5 @@ and access restrictions. For GROS, some specifics can be found here:
 
 ## Worker nodes
 
-Documentation on setting up a GPY-enabled worker node can be found in 
+Documentation on setting up a secure, GPU-enabled worker node can be found in 
 [jenkins-build-node.md](jenkins-build-node.md).
